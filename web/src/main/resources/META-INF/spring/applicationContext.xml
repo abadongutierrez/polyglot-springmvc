@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean id="shoppingListRepository" class="com.jabaddon.practices.polyglotspringmvc.domain.repository.impl.InMemoryShoppingListRepositoryImpl">
+    </bean>
+
+    <bean id="shoppingListService"
+          class="com.jabaddon.practices.polyglotspringmvc.application.impl.ShoppingListServiceImpl"
+          c:shoppingListRepository-ref="shoppingListRepository">
+    </bean>
+
+</beans>

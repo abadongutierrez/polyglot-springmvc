@@ -3,27 +3,55 @@
     <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
         <append>false</append>
         <encoder>
-            <pattern>%-8r %d{dd/MM/yyyy HH:mm:ss} [%25.25t] %-5p %18C{1} %X - %m%n</pattern>
+            <!--pattern>%-8r %d{dd/MM/yyyy HH:mm:ss} [%25.25t] %-5p %18C{1} %X - %m%n</pattern-->
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread][%logger{0}] %m%n</pattern>
         </encoder>
     </appender>
 
-    <!--Basic file appender -->
-    <appender name="fileAppender"
-              class="ch.qos.logback.core.FileAppender">
-        <layout class="ch.qos.logback.classic.PatternLayout">
-            <pattern>%-8r %d{dd/MM/yyyy HH:mm:ss} [%25.25t] %-5p %18C{1} %X - %m%n</pattern>
-        </layout>
-        <File>app.log</File>
+    <appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logFile.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Rollover diario -->
+            <fileNamePattern>logFile.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+            <!-- Mantener 30 dias de historia -->
+            <maxHistory>30</maxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- o cuando el archivo alcance un tamaño de 100MB -->
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread][%logger{0}] %m%n</pattern>
+        </encoder>
     </appender>
 
     <logger name="org.springframework" additivity="false" level="INFO">
         <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="fileAppender"/>
     </logger>
+
+    <logger name="org.hibernate" additivity="false" level="INFO">
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="fileAppender"/>
+    </logger>
+
     <logger name="org.apache.commons" additivity="false" level="INFO">
         <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="fileAppender"/>
     </logger>
+
+    <logger name="org.apache.tiles" additivity="false" level="INFO">
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="fileAppender"/>
+    </logger>
+
     <logger name="com.jabaddon" additivity="false" level="DEBUG">
         <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="fileAppender"/>
     </logger>
 
     <root level="DEBUG">
@@ -31,23 +59,3 @@
         <appender-ref ref="fileAppender"/>
     </root>
 </configuration>
-
-        <!--Basic file appender<appender name="FILE"
-            class="ch.qos.logback.core.FileAppender">
-            <layout class="ch.qos.logback.classic.PatternLayout">
-                <pattern>%-4relative [%thread] %-5level %class - %msg%n</pattern>
-            </layout>
-            <File>sample-log.txt</File>
-        </appender>-->
-
-        <!--Daily rolling file appender -->
-        <!--appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-            <File>logFile.log</File>
-            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-                <FileNamePattern>logFile.%d{yyyy-MM-dd}.log</FileNamePattern>
-            </rollingPolicy>
-
-            <layout class="ch.qos.logback.classic.PatternLayout">
-                <Pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</Pattern>
-            </layout>
-        </appender-->

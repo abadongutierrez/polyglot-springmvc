@@ -321,3 +321,11 @@
 4553     30/07/2013 00:34:20 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
 4553     30/07/2013 00:34:20 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
 383960   30/07/2013 00:40:39 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+7391     31/07/2013 13:07:50 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+7527     31/07/2013 13:07:50 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+9298     31/07/2013 13:07:52 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+12778    31/07/2013 13:07:56 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+1238     31/07/2013 13:11:46 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+1316     31/07/2013 13:11:46 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+1453     31/07/2013 13:11:46 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+1590     31/07/2013 13:11:46 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
