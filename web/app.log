@@ -1,0 +1,323 @@
+328      30/07/2013 00:15:50 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+350      30/07/2013 00:15:50 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+440      30/07/2013 00:15:50 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+27070    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+27072    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+27072    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+27073    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+27073    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+27074    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+27075    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+27076    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+27077    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+27077    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+27078    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+27079    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+27079    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+27090    30/07/2013 00:16:16 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'index'
+34267    30/07/2013 00:16:24 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+152467   30/07/2013 00:18:22 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+302      30/07/2013 00:18:33 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+314      30/07/2013 00:18:34 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+382      30/07/2013 00:18:34 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+3664     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3666     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3667     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3668     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3668     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3669     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3670     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3671     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3671     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3672     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3672     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3673     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3673     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3682     30/07/2013 00:18:37 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'index'
+8286     30/07/2013 00:18:41 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+8287     30/07/2013 00:18:41 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+8309     30/07/2013 00:18:42 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+8317     30/07/2013 00:18:42 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+15796    30/07/2013 00:18:49 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+15832    30/07/2013 00:18:49 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+16429    30/07/2013 00:18:50 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+16550    30/07/2013 00:18:50 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+16551    30/07/2013 00:18:50 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+16550    30/07/2013 00:18:50 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+70289    30/07/2013 00:19:43 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+313      30/07/2013 00:19:58 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+329      30/07/2013 00:19:58 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+414      30/07/2013 00:19:58 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+4702     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+4704     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+4704     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+4705     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+4706     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+4707     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4708     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4708     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4709     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+4710     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+4710     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+4711     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+4711     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+4722     30/07/2013 00:20:02 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+5167     30/07/2013 00:20:03 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+5351     30/07/2013 00:20:03 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5351     30/07/2013 00:20:03 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5351     30/07/2013 00:20:03 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5355     30/07/2013 00:20:03 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+19969    30/07/2013 00:20:17 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+332      30/07/2013 00:20:28 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+340      30/07/2013 00:20:28 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+436      30/07/2013 00:20:28 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+4201     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+4203     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+4204     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+4205     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+4205     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+4206     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4207     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4208     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4209     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+4209     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+4210     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+4211     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+4211     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+4223     30/07/2013 00:20:32 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+5539     30/07/2013 00:20:33 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5539     30/07/2013 00:20:33 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5539     30/07/2013 00:20:33 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5539     30/07/2013 00:20:33 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+169954   30/07/2013 00:23:18 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+393      30/07/2013 00:23:30 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+402      30/07/2013 00:23:30 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+551      30/07/2013 00:23:30 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+3345     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3347     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3347     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3347     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3348     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3348     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3349     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3349     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3350     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3350     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3350     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3351     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3351     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3357     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+4144     30/07/2013 00:23:33 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+4306     30/07/2013 00:23:34 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4306     30/07/2013 00:23:34 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4306     30/07/2013 00:23:34 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4310     30/07/2013 00:23:34 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+42636    30/07/2013 00:24:12 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+313      30/07/2013 00:24:23 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+322      30/07/2013 00:24:23 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+452      30/07/2013 00:24:23 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+17164    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+17166    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+17166    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+17167    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+17168    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+17169    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+17171    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+17172    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+17173    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+17175    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+17176    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+17176    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+17177    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+17191    30/07/2013 00:24:40 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+18040    30/07/2013 00:24:41 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+18255    30/07/2013 00:24:41 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+18256    30/07/2013 00:24:41 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+18255    30/07/2013 00:24:41 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+18259    30/07/2013 00:24:41 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+74893    30/07/2013 00:25:38 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+337      30/07/2013 00:25:49 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+346      30/07/2013 00:25:49 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+441      30/07/2013 00:25:49 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+3682     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3683     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3684     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3684     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3685     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3685     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3686     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3686     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3686     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3687     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3687     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3687     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3688     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3694     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+4135     30/07/2013 00:25:53 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+4321     30/07/2013 00:25:53 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4323     30/07/2013 00:25:53 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4326     30/07/2013 00:25:53 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4326     30/07/2013 00:25:53 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+40013    30/07/2013 00:26:29 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+272      30/07/2013 00:26:41 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+283      30/07/2013 00:26:41 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+428      30/07/2013 00:26:41 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+10310    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+10311    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+10311    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+10311    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+10312    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+10312    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+10313    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+10313    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+10313    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+10314    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+10314    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+10314    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+10315    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+10324    30/07/2013 00:26:51 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+11847    30/07/2013 00:26:52 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+11848    30/07/2013 00:26:52 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+11871    30/07/2013 00:26:52 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+11871    30/07/2013 00:26:52 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+37306    30/07/2013 00:27:18 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+37666    30/07/2013 00:27:18 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+37686    30/07/2013 00:27:18 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+37697    30/07/2013 00:27:18 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+37698    30/07/2013 00:27:18 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+40314    30/07/2013 00:27:21 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+339      30/07/2013 00:27:33 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+347      30/07/2013 00:27:33 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+473      30/07/2013 00:27:33 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+4682     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+4684     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+4684     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+4685     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+4686     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+4687     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4688     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4689     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+4689     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+4689     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+4689     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+4690     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+4690     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+4699     30/07/2013 00:27:37 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+5146     30/07/2013 00:27:38 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5146     30/07/2013 00:27:38 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5146     30/07/2013 00:27:38 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5149     30/07/2013 00:27:38 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+84799    30/07/2013 00:28:57 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+353      30/07/2013 00:29:09 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+363      30/07/2013 00:29:09 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+465      30/07/2013 00:29:09 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+8968     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+8969     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+8969     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+8970     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+8970     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+8971     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+8971     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+8972     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+8972     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+8973     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+8973     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+8973     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+8973     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+8982     30/07/2013 00:29:18 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+10677    30/07/2013 00:29:20 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+10678    30/07/2013 00:29:20 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+10677    30/07/2013 00:29:20 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+10682    30/07/2013 00:29:20 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+176470   30/07/2013 00:32:05 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+330      30/07/2013 00:32:16 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+344      30/07/2013 00:32:16 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+423      30/07/2013 00:32:17 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+5112     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+5113     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+5113     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+5114     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+5114     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+5115     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+5115     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+5115     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+5116     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+5116     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+5116     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+5117     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+5117     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+5125     30/07/2013 00:32:21 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+5584     30/07/2013 00:32:22 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5589     30/07/2013 00:32:22 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5590     30/07/2013 00:32:22 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5600     30/07/2013 00:32:22 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+32431    30/07/2013 00:32:49 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+357      30/07/2013 00:33:00 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+365      30/07/2013 00:33:00 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+509      30/07/2013 00:33:00 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+3370     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3371     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3371     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3372     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3372     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3373     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3374     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3375     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3376     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3377     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3378     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3379     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3379     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3393     30/07/2013 00:33:03 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+5095     30/07/2013 00:33:05 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+5300     30/07/2013 00:33:05 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5305     30/07/2013 00:33:05 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5305     30/07/2013 00:33:05 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+5307     30/07/2013 00:33:05 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+21874    30/07/2013 00:33:22 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+317      30/07/2013 00:33:34 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+328      30/07/2013 00:33:34 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+403      30/07/2013 00:33:34 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+3820     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3822     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3822     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3823     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3823     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3824     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3834     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3835     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3835     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3836     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3836     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3836     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3837     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3852     30/07/2013 00:33:37 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+4636     30/07/2013 00:33:38 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+4918     30/07/2013 00:33:38 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4920     30/07/2013 00:33:38 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4920     30/07/2013 00:33:38 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4920     30/07/2013 00:33:38 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+31041    30/07/2013 00:34:04 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+180      30/07/2013 00:34:15 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Initializing Tiles2 application context. . .
+186      30/07/2013 00:34:15 [                     main] INFO  o.a.t.c.AbstractTilesApplicationContextFactory  - Finished initializing Tiles2 application context.
+238      30/07/2013 00:34:15 [                     main] INFO  o.a.t.a.TilesAccess  - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext
+3688     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3693     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3694     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3695     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3695     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3696     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3697     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3698     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.BaseLocaleUrlDefinitionDAO  - File null not found, continue
+3699     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='index' extends='default'.
+3700     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='dataAccessFailure' extends='public'.
+3701     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='resourceNotFound' extends='public'.
+3701     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='uncaughtException' extends='public'.
+3702     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.d.d.ResolvingLocaleUrlDefinitionDAO  - Resolve definition for child name='test/view' extends='default'.
+3715     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'test/view'
+4358     30/07/2013 00:34:19 [              http-8080-1] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'uncaughtException'
+4548     30/07/2013 00:34:20 [              http-8080-2] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4548     30/07/2013 00:34:20 [              http-8080-3] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4553     30/07/2013 00:34:20 [              http-8080-5] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+4553     30/07/2013 00:34:20 [              http-8080-4] DEBUG o.a.t.i.BasicTilesContainer  - Render request recieved for definition 'resourceNotFound'
+383960   30/07/2013 00:40:39 [                 Thread-1] INFO  o.a.t.a.TilesAccess  - Removing TilesContext for context: org.springframework.web.servlet.view.tiles2.SpringTilesApplicationContextFactory$SpringWildcardServletTilesApplicationContext

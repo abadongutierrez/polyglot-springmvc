@@ -1,0 +1,5 @@
+<div xmlns:c="http://java.sun.com/jsp/jstl/core">
+    <c:out value="${scontact.completeName()}" />
+    <br />
+    <c:out value="${mensaje}" />
+</div>
