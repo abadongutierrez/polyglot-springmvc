@@ -8,9 +8,25 @@ import com.jabaddon.practices.polyglotspringmvc.domain.model.{Units, Item, Shopp
  */
 class InMemoryShoppingListRepositoryImpl extends ShoppingListRepository {
     var shoppingLists: List[ShoppingList] = List[ShoppingList]()
-    var sl = new ShoppingList()
-    sl.addItem(new Item("Milk", 2, Units.Liters))
-    shoppingLists ::= sl
 
     def findAll: List[ShoppingList] = shoppingLists
+
+    def find(name: String): ShoppingList = {
+        if (!shoppingLists.filter(_.name == name).isEmpty) {
+            return shoppingLists.filter(_.name == name)(0)
+        }
+        null
+    }
+
+    def createNew(name: String): String = {
+        val newShoppingList = new ShoppingList(name)
+        shoppingLists ::= newShoppingList
+        name // the name is the id
+    }
+
+    def exists(name: String): Boolean = {
+        shoppingLists.filter(_.name == name).size > 0
+    }
+
+    def clearAll = shoppingLists = List[ShoppingList]()
 }

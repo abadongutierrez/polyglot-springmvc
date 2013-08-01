@@ -3,7 +3,7 @@ package com.jabaddon.practices.polyglotspringmvc.domain.model
 /**
  * @author Rafael Antonio Guti&eacute;rrez Turullols
  */
-class ShoppingList {
+class ShoppingList(val name: String) {
     var items: List[Item] = List[Item]()
 
     def isEmpty(): Boolean = items.size == 0

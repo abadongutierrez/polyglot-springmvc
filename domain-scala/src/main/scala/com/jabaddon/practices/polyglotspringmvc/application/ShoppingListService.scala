@@ -7,4 +7,5 @@ import com.jabaddon.practices.polyglotspringmvc.domain.model.ShoppingList
  */
 trait ShoppingListService {
     def findAll: List[ShoppingList]
+    def createNew(name: String): String
 }

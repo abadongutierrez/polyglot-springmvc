@@ -12,11 +12,15 @@ class ShoppingListTest extends FunSuite with BeforeAndAfterEach {
     var shoppingList: ShoppingList = null
 
     override def beforeEach() {
-        shoppingList = new ShoppingList
+        shoppingList = new ShoppingList("Some Name")
     }
 
     test("A new shopping list should be empty") {
         assert(shoppingList.isEmpty == true)
+    }
+
+    test("A new shopping list should have the assigned name") {
+        assert(shoppingList.name == "Some Name")
     }
 
     test("A shopping list with some items should not be empty") {

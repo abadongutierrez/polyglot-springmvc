@@ -10,4 +10,6 @@ import com.jabaddon.practices.polyglotspringmvc.domain.repository.ShoppingListRe
 class ShoppingListServiceImpl(val shoppingListRepository: ShoppingListRepository) extends ShoppingListService {
 
     def findAll: List[ShoppingList] = shoppingListRepository.findAll
+
+    def createNew(name: String): String = shoppingListRepository.createNew(name)
 }
