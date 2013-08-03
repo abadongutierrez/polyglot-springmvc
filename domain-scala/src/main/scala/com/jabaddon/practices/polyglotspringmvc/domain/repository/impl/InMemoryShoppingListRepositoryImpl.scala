@@ -18,10 +18,10 @@ class InMemoryShoppingListRepositoryImpl extends ShoppingListRepository {
         null
     }
 
-    def createNew(name: String): String = {
+    def createNew(name: String): ShoppingList = {
         val newShoppingList = new ShoppingList(name)
         shoppingLists ::= newShoppingList
-        name // the name is the id
+        newShoppingList
     }
 
     def exists(name: String): Boolean = {

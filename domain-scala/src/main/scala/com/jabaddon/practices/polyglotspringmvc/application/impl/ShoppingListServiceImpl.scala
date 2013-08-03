@@ -11,5 +11,5 @@ class ShoppingListServiceImpl(val shoppingListRepository: ShoppingListRepository
 
     def findAll: List[ShoppingList] = shoppingListRepository.findAll
 
-    def createNew(name: String): String = shoppingListRepository.createNew(name)
+    def createNew(name: String): ShoppingList = shoppingListRepository.createNew(name)
 }

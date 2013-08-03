@@ -1,7 +1,8 @@
 package com.jabaddon.practices.polyglotspringmvc.web.controller
-
+import com.jabaddon.practices.polyglotspringmvc.domain.model.Item
+import com.jabaddon.practices.polyglotspringmvc.domain.model.Units
 import com.jabaddon.practices.polyglotspringmvc.domain.repository.ShoppingListRepository
-import org.hamcrest.CoreMatchers
+import groovy.json.JsonSlurper
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -17,6 +18,8 @@ import org.springframework.test.web.servlet.MvcResult
 import org.springframework.test.web.servlet.ResultHandler
 import org.springframework.web.context.WebApplicationContext
 
+import static org.hamcrest.CoreMatchers.is
+import static org.hamcrest.CoreMatchers.notNullValue
 import static org.junit.Assert.assertThat
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
@@ -83,16 +86,56 @@ class ShoppingListsControllerIntegrationTest {
                     .param("name", expectedName))
                 .andDo(new ResultHandler() {
                     void handle(MvcResult mvcResult) throws Exception {
-                        LOG.debug("Location: [{}]", mvcResult.getResponse().getHeader("Location"))
-                        LOG.debug("Result: [{}]", mvcResult.getResponse().contentAsString)
+                        LOG.debug("Location: [{}]", mvcResult.response.getHeader("Location"))
+                        LOG.debug("Result: [{}]", mvcResult.response.contentAsString)
                     }
                 })
                 .andExpect(status().isCreated())
                 .andExpect(header().string("Location", expectedLocation))
 
-        assertThat(shoppingListRepository.exists(expectedName), CoreMatchers.is(true))
-        assertThat(shoppingListRepository.find(expectedName)?.isEmpty(), CoreMatchers.is(true))
+        assertThat(shoppingListRepository.exists(expectedName), is(true))
+        assertThat(shoppingListRepository.find(expectedName)?.isEmpty(), is(true))
 
         LOG.debug("### << postShouldCreateANewShoppingList() ###")
+    }
+
+    @Test
+    public void getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() {
+        LOG.debug("### << getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() ###")
+        def slurper = new JsonSlurper()
+        def result = null
+
+        createShoppingListsFixture(3);
+        assertThat(shoppingListRepository.findAll().size(), is(3))
+
+        mockMvc.perform(get("/shoppingLists").accept(MediaType.APPLICATION_JSON))
+                .andDo(new ResultHandler() {
+                    void handle(MvcResult mvcResult) throws Exception {
+                        LOG.debug("Content: [{}]", mvcResult.response.contentAsString)
+                        result = slurper.parseText(mvcResult.response.contentAsString)
+                    }
+                })
+                .andExpect(status().isOk())
+                // ??? .andExpect(jsonPath('$.shoppingLists[*].name', is(collectionWithSize(equalTo(2)))))
+
+        // Using hamcrest
+        assertThat(result, is(notNullValue()))
+        assertThat(result.shoppingLists.size(), is(3))
+
+        // Using groovy's assert
+        assert result != null
+        assert result.shoppingLists.size() == 3
+
+        LOG.debug("### >> getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() ###")
+    }
+
+    def createShoppingListsFixture(int i) {
+        (1..i).each {
+            LOG.debug("Creando fixture ${it}")
+            def sl = shoppingListRepository.createNew("Shopping List ${it}")
+            sl.addItem(new Item("Product 1", 1, Units.Liters))
+            sl.addItem(new Item("Product 2", 2, Units.Pieces))
+            sl.addItem(new Item("Product 3", 3, Units.Pieces))
+        }
     }
 }

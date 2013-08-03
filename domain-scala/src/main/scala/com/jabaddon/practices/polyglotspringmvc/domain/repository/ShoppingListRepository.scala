@@ -11,7 +11,7 @@ import com.jabaddon.practices.polyglotspringmvc.domain.model.ShoppingList
 trait ShoppingListRepository {
     def findAll: List[ShoppingList]
     def find(name: String): ShoppingList
-    def createNew(name: String): String
+    def createNew(name: String): ShoppingList
     def exists(name: String): Boolean
     def clearAll
 }

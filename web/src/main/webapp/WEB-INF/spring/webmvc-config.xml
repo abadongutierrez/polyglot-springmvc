@@ -6,11 +6,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd                 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd                 http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
 
-    <!-- Escanea los beans con @Controller -->
-    <context:component-scan base-package="com.jabaddon.practices.polyglotspringmvc.web.controller"
-                            use-default-filters="false">
-        <context:include-filter expression="org.springframework.stereotype.Controller"
-                                type="annotation"/>
+    <!-- Escanea los componentes web -->
+    <context:component-scan base-package="com.jabaddon.practices.polyglotspringmvc.web">
     </context:component-scan>
 
     <!-- Activa el soporte a Spring MVC -->
