@@ -14,4 +14,5 @@ trait ShoppingListRepository {
     def createNew(name: String): ShoppingList
     def exists(name: String): Boolean
     def clearAll
+    def delete(name: String)
 }

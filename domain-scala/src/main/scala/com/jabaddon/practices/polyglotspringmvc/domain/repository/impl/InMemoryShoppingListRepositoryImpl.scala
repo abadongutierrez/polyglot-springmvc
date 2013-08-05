@@ -29,4 +29,6 @@ class InMemoryShoppingListRepositoryImpl extends ShoppingListRepository {
     }
 
     def clearAll = shoppingLists = List[ShoppingList]()
+
+    def delete(name: String) = shoppingLists = shoppingLists.filterNot(_.name == name)
 }

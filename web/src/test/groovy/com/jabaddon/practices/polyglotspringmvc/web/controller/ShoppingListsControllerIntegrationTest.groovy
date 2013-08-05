@@ -1,4 +1,5 @@
 package com.jabaddon.practices.polyglotspringmvc.web.controller
+
 import com.jabaddon.practices.polyglotspringmvc.domain.model.Item
 import com.jabaddon.practices.polyglotspringmvc.domain.model.Units
 import com.jabaddon.practices.polyglotspringmvc.domain.repository.ShoppingListRepository
@@ -17,23 +18,24 @@ import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.MvcResult
 import org.springframework.test.web.servlet.ResultHandler
 import org.springframework.web.context.WebApplicationContext
+import scala.collection.JavaConversions
 
 import static org.hamcrest.CoreMatchers.is
 import static org.hamcrest.CoreMatchers.notNullValue
 import static org.junit.Assert.assertThat
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup
+
 /**
  * @author Rafael Antonio Guti&eacute;rrez Turullols
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 @ContextConfiguration(locations = [
-    "classpath:META-INF/spring/applicationContext*.xml",
-    "file:src/main/webapp/WEB-INF/spring/webmvc-config.xml"
+"classpath:META-INF/spring/applicationContext*.xml",
+"file:src/main/webapp/WEB-INF/spring/webmvc-config.xml"
 ])
 class ShoppingListsControllerIntegrationTest {
 
@@ -83,25 +85,28 @@ class ShoppingListsControllerIntegrationTest {
         def expectedLocation = linkTo(ShoppingListsController.class).slash(expectedName).toUri().toString()
         LOG.debug("Expected Location: [{}]", expectedLocation)
         mockMvc.perform(post("/shoppingLists")
-                    .param("name", expectedName))
+                .param("name", expectedName))
                 .andDo(new ResultHandler() {
-                    void handle(MvcResult mvcResult) throws Exception {
-                        LOG.debug("Location: [{}]", mvcResult.response.getHeader("Location"))
-                        LOG.debug("Result: [{}]", mvcResult.response.contentAsString)
-                    }
-                })
+            void handle(MvcResult mvcResult) throws Exception {
+                LOG.debug("Location: [{}]", mvcResult.response.getHeader("Location"))
+                LOG.debug("Result: [{}]", mvcResult.response.contentAsString)
+            }
+        })
                 .andExpect(status().isCreated())
                 .andExpect(header().string("Location", expectedLocation))
 
         assertThat(shoppingListRepository.exists(expectedName), is(true))
-        assertThat(shoppingListRepository.find(expectedName)?.isEmpty(), is(true))
+        assertThat(shoppingListRepository.find(expectedName), is(notNullValue()))
+
+        assert shoppingListRepository.exists(expectedName) == true
+        assert shoppingListRepository.find(expectedName) != null
 
         LOG.debug("### << postShouldCreateANewShoppingList() ###")
     }
 
     @Test
     public void getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() {
-        LOG.debug("### << getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() ###")
+        LOG.debug("### >> getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() ###")
         def slurper = new JsonSlurper()
         def result = null
 
@@ -110,13 +115,13 @@ class ShoppingListsControllerIntegrationTest {
 
         mockMvc.perform(get("/shoppingLists").accept(MediaType.APPLICATION_JSON))
                 .andDo(new ResultHandler() {
-                    void handle(MvcResult mvcResult) throws Exception {
-                        LOG.debug("Content: [{}]", mvcResult.response.contentAsString)
-                        result = slurper.parseText(mvcResult.response.contentAsString)
-                    }
-                })
+            void handle(MvcResult mvcResult) throws Exception {
+                LOG.debug("Content: [{}]", mvcResult.response.contentAsString)
+                result = slurper.parseText(mvcResult.response.contentAsString)
+            }
+        })
                 .andExpect(status().isOk())
-                // ??? .andExpect(jsonPath('$.shoppingLists[*].name', is(collectionWithSize(equalTo(2)))))
+        // ??? .andExpect(jsonPath('$.shoppingLists[*].name', is(collectionWithSize(equalTo(2)))))
 
         // Using hamcrest
         assertThat(result, is(notNullValue()))
@@ -126,7 +131,51 @@ class ShoppingListsControllerIntegrationTest {
         assert result != null
         assert result.shoppingLists.size() == 3
 
-        LOG.debug("### >> getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() ###")
+        LOG.debug("### << getJsonWithSomeShoppingListsShouldResponseAListOfThoseShoppingLists() ###")
+    }
+
+    @Test
+    public void deleteShouldDeleteTheShoppingList() {
+        LOG.debug("### >> deleteShouldDeleteTheShoppingList() ###")
+
+        createShoppingListsFixture(3);
+        assertThat(shoppingListRepository.findAll().size(), is(3))
+        def name = "Shopping List 1"
+
+        mockMvc.perform(delete("/shoppingLists/${name}"))
+                .andExpect(status().isOk())
+
+        assert shoppingListRepository.find(name) == null
+        assert JavaConversions.asJavaList(shoppingListRepository.findAll()).size() == 2
+
+        LOG.debug("### << deleteShouldDeleteTheShoppingList() ###")
+    }
+
+    @Test
+    public void getShouldReturnAShoppingList() {
+        LOG.debug("### >> deleteShouldDeleteTheShoppingList() ###")
+
+        createShoppingListsFixture(1);
+        assertThat(shoppingListRepository.findAll().size(), is(1))
+
+        def name = "Shopping List 1"
+        def result = null
+
+        mockMvc.perform(get("/shoppingLists/${name}")
+                    .accept(MediaType.APPLICATION_JSON))
+                .andDo(new ResultHandler() {
+                    void handle(MvcResult mvcResult) throws Exception {
+                        LOG.debug("Content: [{}]", mvcResult.response.contentAsString)
+                        def slurper = new JsonSlurper()
+                        result = slurper.parseText(mvcResult.response.contentAsString)
+                    }
+                })
+                .andExpect(status().isOk())
+
+        assert result.name == name
+        assert result.items.size() == 3
+
+        LOG.debug("### << getShouldReturnAShoppingList() ###")
     }
 
     def createShoppingListsFixture(int i) {
